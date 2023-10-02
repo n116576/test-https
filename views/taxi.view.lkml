@@ -10,6 +10,7 @@ view: taxi {
 
   dimension: taxi_id {
     primary_key: yes
+    description: "test"
     type: string
     sql: ${TABLE}.taxi_id ;;
   }
